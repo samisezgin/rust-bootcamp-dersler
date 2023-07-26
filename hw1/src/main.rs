@@ -9,5 +9,5 @@ fn main() {
 fn concatenate_strings(string1: &str, string2: &str) -> String {
     let mut result: String = String::from(string1); 
     result.push_str(string2);
-    result
+    result 
 }
