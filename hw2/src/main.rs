@@ -1,10 +1,11 @@
+// Step 1: Define an enum named Operation with appropriate variants and values.
 enum Operation {
     Add(f64, f64),
     Subtract(f64, f64),
     Multiply(f64, f64),
     Divide(f64, f64),
 }
-
+// Step 2: Write the calculate function signature and implement it using pattern matching to perform the appropriate arithmetic operation.
 fn calculate(op: Operation) -> f64 {
     match op {
         Operation::Add(a, b) => a + b,
